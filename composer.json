@@ -1,0 +1,43 @@
+{
+  "name": "SpiroAB/unnamed_wp_project",
+  "description": "Unnamed wordpress project",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "developer name",
+      "email": "someone@spiro.se"
+    }
+  ],
+  "require": {
+    "SpiroAB/wordpress": "^4.9"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://raw.githubusercontent.com/SpiroAB/composer-repo/master/packages.json"
+    },
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "extra": {
+    "installer-types": [
+      "wordpress-core"
+    ],
+    "installer-paths": {
+      "wp/": [
+        "type:wordpress-core"
+      ],
+      "content/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ]
+    }
+  },
+  "scripts": {
+    "post-autoload-dump": [
+      "@php composer_wp_plugins_to_git_ignore.php"
+    ]
+  }
+}
