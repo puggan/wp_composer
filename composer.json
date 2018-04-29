@@ -10,7 +10,15 @@
     }
   ],
   "require": {
-    "SpiroAB/wordpress": "^4.9"
+    "SpiroAB/isimo_wp": "^1.1",
+    "SpiroAB/wordpress": "^4.9",
+    "SpiroAB/wp_version_tracker": "^1.0",
+    "wpackagist-plugin/normalizer": "^1.0",
+    "wpackagist-plugin/regenerate-thumbnails": "^3.0",
+    "wpackagist-plugin/svg-support": "^2.3",
+    "wpackagist-plugin/tidyoutput": "^1.0",
+    "wpackagist-plugin/wordpress-seo": "^7.3",
+    "wpackagist-plugin/wp-mail-smtp": "^1.2"
   },
   "repositories": [
     {
