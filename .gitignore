@@ -1,0 +1,6 @@
+.idea/
+.well-known/
+content/uploads/
+robots.txt
+vendor/
+wp-config-local.php
