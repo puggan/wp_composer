@@ -11,6 +11,7 @@
   ],
   "require": {
     "SpiroAB/isimo_wp": "^1.1",
+    "SpiroAB/spiro_wp_settings": "^1.0",
     "SpiroAB/wordpress": "^4.9",
     "SpiroAB/wp_version_tracker": "^1.0",
     "wpackagist-plugin/normalizer": "^1.0",
