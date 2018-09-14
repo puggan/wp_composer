@@ -5,3 +5,14 @@ robots.txt
 vendor/
 wp-config-local.php
 wp/
+content/plugins/isimo_wp/
+content/plugins/wp_version_tracker/
+content/plugins/normalizer/
+content/plugins/regenerate-thumbnails/
+content/plugins/svg-support/
+content/plugins/tidyoutput/
+content/plugins/wordpress-seo/
+content/plugins/post-types-order/
+content/plugins/which-template-file/
+content/plugins/wordpress-importer/
+content/plugins/wp-mail-smtp/
