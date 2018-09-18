@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3fb914a88e5c7b5d4c622b3d870efc97",
+    "content-hash": "8b88f4b0502fc7d130798fb493025d51",
     "packages": [
         {
             "name": "SpiroAB/isimo_wp",
@@ -23,13 +23,18 @@
         },
         {
             "name": "SpiroAB/spiro_wp_settings",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SpiroAB/spiro_wp_settings.git",
-                "reference": "9a76109e0be077a5ebd9e109f74b3a89d2c022fc"
+                "reference": "a1ec01dd683d8be5c4540121ea5b22ce88478cc8"
             },
-            "type": "library"
+            "require": {
+                "composer/installers": "~1.0",
+                "spiroab/wp_version_tracker": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "description": "Wordpress pluing to set some default settings to make a good base"
         },
         {
             "name": "SpiroAB/wordpress",
@@ -223,6 +228,55 @@
             "description": "Extend the composer/installers plugin to accept any arbitrary package type.",
             "homepage": "http://www.oomphinc.com/",
             "time": "2017-03-31T16:57:39+00:00"
+        },
+        {
+            "name": "wp-plugins/advanced-custom-fields-pro",
+            "version": "5.7.6",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:spiro/wp-plugins-advanced-custom-fields-pro",
+                "reference": "24973d2b3fd298e5c3bd3dcdccda013954238745"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "description": "advancedcustomfields.com"
+        },
+        {
+            "name": "wp-plugins/sitepress-multilingual-cms",
+            "version": "v3.9.4",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:spiro/wp-plugins-sitepress-multilingual-cms.git",
+                "reference": "c25cdf717ebcb4c7dabc1b1db4506d97b3d18127"
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "spiroab/wp_version_tracker": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "description": "WPML Multilingual CMS"
+        },
+        {
+            "name": "wpackagist-plugin/gutenberg",
+            "version": "3.8.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/gutenberg/",
+                "reference": "tags/3.8.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.3.8.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/gutenberg/"
         },
         {
             "name": "wpackagist-plugin/normalizer",

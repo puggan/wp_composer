@@ -13,3 +13,11 @@ define( 'DISALLOW_FILE_MODS', false ); // enable theme and plugin updates
 // define( 'FTP_USER', '' );
 // define( 'FTP_PASS', '' );
 // define( 'FTP_HOST', '127.0.0.1' );
+// 
+/* Define home and site url's
+----------------------------------------- */
+// if(!defined('WP_SITEURL')) define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp');
+// if(!defined('WP_HOME')) define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME']);
+
+// if(!defined('WP_CONTENT_DIR')) define( 'WP_CONTENT_DIR', __DIR__ . '/content' );
+// if(!defined('WP_CONTENT_URL')) define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/content' );
