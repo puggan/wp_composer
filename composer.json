@@ -52,6 +52,9 @@
       ]
     }
   },
+  "config": {
+    "sort-packages": true
+  },
   "scripts": {
     "post-autoload-dump": [
       "@php composer_wp_plugins_to_git_ignore.php"
