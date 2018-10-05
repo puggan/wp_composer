@@ -17,7 +17,6 @@
     "wpackagist-plugin/normalizer": "^1.0",
     "wpackagist-plugin/regenerate-thumbnails": "^3.0",
     "wpackagist-plugin/svg-support": "^2.3",
-    "wpackagist-plugin/tidyoutput": "^1.0",
     "wpackagist-plugin/wordpress-seo": "^8.2",
     "wpackagist-plugin/post-types-order": "^1.9",
     "wpackagist-plugin/which-template-file": "^4.3",

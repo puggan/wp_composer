@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8b88f4b0502fc7d130798fb493025d51",
+    "content-hash": "e4f0c377efb0965c75398ffd740d1c0f",
     "packages": [
         {
             "name": "SpiroAB/isimo_wp",
@@ -235,7 +235,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:spiro/wp-plugins-advanced-custom-fields-pro",
-                "reference": "24973d2b3fd298e5c3bd3dcdccda013954238745"
+                "reference": "a8c34c6c9498d2eba81b34cb218415446a73feab"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -357,26 +357,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/svg-support/"
-        },
-        {
-            "name": "wpackagist-plugin/tidyoutput",
-            "version": "1.0.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/tidyoutput/",
-                "reference": "tags/1.0.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/tidyoutput.1.0.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/tidyoutput/"
         },
         {
             "name": "wpackagist-plugin/which-template-file",
