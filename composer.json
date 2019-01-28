@@ -29,6 +29,10 @@
   "repositories": [
     {
       "type": "composer",
+      "url": "https://packages.spiro.se"
+    },
+    {
+      "type": "composer",
       "url": "https://raw.githubusercontent.com/SpiroAB/composer-repo/master/packages.json"
     },
     {
