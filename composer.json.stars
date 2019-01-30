@@ -1,0 +1,66 @@
+{
+  "name": "SpiroAB/unnamed_wp_project",
+  "description": "Unnamed wordpress project",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "developer name",
+      "email": "someone@spiro.se"
+    }
+  ],
+  "require": {
+    "SpiroAB/isimo_wp": "*",
+    "SpiroAB/spiro_wp_settings": "*",
+    "SpiroAB/wordpress": "*",
+    "SpiroAB/wp_version_tracker": "*",
+    "wpackagist-plugin/normalizer": "*",
+    "wpackagist-plugin/regenerate-thumbnails": "*",
+    "wpackagist-plugin/svg-support": "*",
+    "wpackagist-plugin/wordpress-seo": "*",
+    "wpackagist-plugin/post-types-order": "*",
+    "wpackagist-plugin/which-template-file": "*",
+    "wpackagist-plugin/wordpress-importer": "*",
+    "wpackagist-plugin/wp-mail-smtp": "*",
+    "wp-plugins/advanced-custom-fields-pro": "*",
+    "wp-plugins/sitepress-multilingual-cms": "*"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.spiro.se"
+    },
+    {
+      "type": "composer",
+      "url": "https://raw.githubusercontent.com/SpiroAB/composer-repo/master/packages.json"
+    },
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "extra": {
+    "installer-types": [
+      "wordpress-core"
+    ],
+    "installer-paths": {
+      "wp/": [
+        "type:wordpress-core"
+      ],
+      "content/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "content/themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "scripts": {
+    "post-autoload-dump": [
+      "@php composer_wp_plugins_to_git_ignore.php"
+    ]
+  }
+}
