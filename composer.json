@@ -12,19 +12,18 @@
   "require": {
     "SpiroAB/isimo_wp": "^1.1",
     "SpiroAB/spiro_wp_settings": "^1.0",
-    "SpiroAB/wordpress": "^4.9",
+    "SpiroAB/wordpress": "^5.0",
     "SpiroAB/wp_version_tracker": "^1.0",
     "wpackagist-plugin/normalizer": "^1.0",
     "wpackagist-plugin/regenerate-thumbnails": "^3.0",
     "wpackagist-plugin/svg-support": "^2.3",
-    "wpackagist-plugin/wordpress-seo": "^8.2",
+    "wpackagist-plugin/wordpress-seo": "^9.5",
     "wpackagist-plugin/post-types-order": "^1.9",
     "wpackagist-plugin/which-template-file": "^4.3",
     "wpackagist-plugin/wordpress-importer": "^0.6",
     "wpackagist-plugin/wp-mail-smtp": "^1.2",
-    "wpackagist-plugin/gutenberg": "^3.8",
     "wp-plugins/advanced-custom-fields-pro": "^5",
-    "wp-plugins/sitepress-multilingual-cms": "^3.9"
+    "wp-plugins/sitepress-multilingual-cms": "^4.1"
   },
   "repositories": [
     {
