@@ -1,38 +1,33 @@
 {
-  "name": "SpiroAB/unnamed_wp_project",
+  "name": "puggan/unnamed_wp_project",
   "description": "Unnamed wordpress project",
   "type": "project",
   "license": "MIT",
   "authors": [
     {
-      "name": "developer name",
-      "email": "someone@spiro.se"
+      "name": "Puggan",
+      "email": "puggan@sundragon.se"
     }
   ],
   "require": {
-    "SpiroAB/isimo_wp": "^1.1",
-    "SpiroAB/spiro_wp_settings": "^1.0",
-    "SpiroAB/wordpress": "^5.0",
-    "SpiroAB/wp_version_tracker": "^1.0",
-    "wpackagist-plugin/normalizer": "^1.0",
-    "wpackagist-plugin/regenerate-thumbnails": "^3.0",
-    "wpackagist-plugin/svg-support": "^2.3",
-    "wpackagist-plugin/wordpress-seo": "^9.5",
-    "wpackagist-plugin/post-types-order": "^1.9",
-    "wpackagist-plugin/which-template-file": "^4.3",
-    "wpackagist-plugin/wordpress-importer": "^0.6",
-    "wpackagist-plugin/wp-mail-smtp": "^1.2",
-    "wp-plugins/advanced-custom-fields-pro": "^5",
-    "wp-plugins/sitepress-multilingual-cms": "^4.1"
+    "oomphinc/composer-installers-extender": "^2.0.1",
+    "spiroab/isimo_wp": "^1.1.8",
+    "spiroab/spiro_wp_settings": "^1.0.2",
+    "spiroab/wordpress": "^6.1.1",
+    "spiroab/wp_version_tracker": "^1.0.0",
+    "wpackagist-plugin/normalizer": "^1.0.0",
+    "wpackagist-plugin/post-types-order": "^1.9.9",
+    "wpackagist-plugin/regenerate-thumbnails": "^3.1.5",
+    "wpackagist-plugin/svg-support": "^2.5.5",
+    "wpackagist-plugin/which-template-file": "^4.6.0",
+    "wpackagist-plugin/wordpress-importer": "^0.8",
+    "wpackagist-plugin/wordpress-seo": "^20.1",
+    "wpackagist-plugin/wp-mail-smtp": "^3.7.0"
   },
   "repositories": [
     {
       "type": "composer",
-      "url": "https://packages.spiro.se"
-    },
-    {
-      "type": "composer",
-      "url": "https://raw.githubusercontent.com/SpiroAB/composer-repo/master/packages.json"
+      "url": "https://raw.githubusercontent.com/puggan/composer-repo/master/packages.json"
     },
     {
       "type": "composer",
@@ -56,7 +51,11 @@
     }
   },
   "config": {
-    "sort-packages": true
+    "sort-packages": true,
+    "allow-plugins": {
+      "composer/installers": true,
+      "oomphinc/composer-installers-extender": true
+    }
   },
   "scripts": {
     "post-autoload-dump": [
